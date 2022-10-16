@@ -1,20 +1,31 @@
-export const cardStyle = function () {
+export const cardStyle = function (cardSize: string) {
   return {
     ".muiCard": {
-      maxWidth: "672px",
+      width: cardSize,
       border: "1px solid #CECECE",
       margin: "0 auto",
-
-      ".gridTitle": {
-        margin: "32px 0 16px 0",
+      ".gridStyleCardHeader": {
+        backgroundColor: "#F8F8F8",
+        borderBottom: "1px solid #CECECE",
+        ".styleCardHeader": {
+          Width: "206px",
+          height: "85px",
+          margin: "auto auto 58px auto",
+          padding: 0,
+        },
+      },
+      ".gridStyleTitle": {
+        margin: "32px 0 0 16px",
         paddingRight: "31px",
 
-        ".typographyTitle": {
+        ".typographyStyleTitle": {
           marginBottom: "60px",
-          textAlign: "right",
           fontSize: "18px",
           fontWeight: "bold",
         },
+      },
+      ".styledCardContent": {
+        backgroundColor: "#FFF",
       },
     },
   };
