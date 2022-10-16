@@ -40,7 +40,7 @@ const Form = function ({
                   </InputAdornment>
                 ),
               }}
-            ></TextField>
+            />
           </Grid>
           <Grid item xs className="gridContentHolder">
             <ContentHolder

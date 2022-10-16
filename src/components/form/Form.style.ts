@@ -18,7 +18,6 @@ const formStyle = function (isLoginForm: boolean) {
         marginBottom: "20px",
 
         ".typographyPhoneNumber": {
-          textAlign: "right",
           color: "#33475B",
           font: "600 56px",
         },
@@ -35,7 +34,6 @@ const formStyle = function (isLoginForm: boolean) {
     },
     ".gridContentHolder": {
       marginBottom: !isLoginForm ? "100px" : "0px",
-      textAlign: "right",
       ".textLink": {
         color: "#1F78B4",
       },
